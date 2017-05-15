@@ -1,0 +1,20 @@
+[2015/09/29 13:51:51.542]  : Product per hour : 0, Total: 0
+
+[2015/09/29 14:00:00.292]  : Product per hour : 0, Total: 0
+
+[2015/09/29 15:00:00.015]  : Product per hour : 0, Total: 0
+
+[2015/09/29 16:00:00.752]  : Product per hour : 0, Total: 0
+
+[2015/09/29 17:00:00.491]  : Product per hour : 0, Total: 0
+
+[2015/09/29 18:00:00.214]  : Product per hour : 0, Total: 0
+
+[2015/09/29 19:00:00.951]  : Product per hour : 0, Total: 0
+
+[2015/09/29 20:00:00.674]  : Product per hour : 0, Total: 0
+
+[2015/09/29 21:00:00.398]  : Product per hour : 0, Total: 0
+
+[2015/09/29 22:00:00.140]  : Product per hour : 0, Total: 0
+

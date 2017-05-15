@@ -1,0 +1,27 @@
+[2015/12/02 09:09:49.214]  : Client_[01] Connect Fail.. IP =  , Port = 0
+[2015/12/02 09:09:49.220]  : Client_[02] Connect Fail.. IP =  , Port = 0
+[2015/12/02 09:09:50.221]  : Client_[05] Connect Fail.. IP = 127.0.0.1 , Port = 10056
+[2015/12/02 09:09:50.226]  : Client_[06] Connect Fail.. IP =  , Port = 0
+[2015/12/02 09:09:50.232]  : Client_[07] Connect Fail.. IP =  , Port = 0
+[2015/12/02 09:09:50.237]  : Client_[08] Connect Fail.. IP =  , Port = 0
+[2015/12/02 09:09:50.248]  : Client_[09] Connect Fail.. IP =  , Port = 0
+[2015/12/02 09:09:50.422]  : [OnMain_Motor_Setting]
+[2015/12/02 09:09:50.424]  : Door_1_Open_Close_Error_PS3701
+[2015/12/02 09:09:51.029]  : Listening. Server [00]..
+[2015/12/02 09:09:51.058]  : Listening. Server [02]..
+[2015/12/02 09:09:51.087]  : Listening. Server [03]..
+[2015/12/02 09:09:51.116]  : Listening. Server [04]..
+[2015/12/02 09:09:51.143]  : Listening. Server [05]..
+[2015/12/02 09:09:51.172]  : Listening. Server [06]..
+[2015/12/02 09:09:51.202]  : Listening. Server [07]..
+[2015/12/02 09:09:51.203]  : Listening. Server [07]..
+[2015/12/02 09:09:51.204]  : Listening. Server [08]..
+[2015/12/02 09:09:51.205]  : Listening. Server [09]..
+[2015/12/02 09:09:58.856]  : Client_[06] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9100^XZ
+[2015/12/02 09:09:58.857]  : Client_[07] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9101^XZ
+[2015/12/02 09:09:58.857]  : Client_[08] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9102^XZ
+[2015/12/02 09:09:58.858]  : Client_[09] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9103^XZ
+[2015/12/02 09:09:58.864]  : [PRINT_Answer] ^XA^SXK,D,Y,Y,192.168.1.16,9103^XZ
+[2015/12/02 09:10:00.433]  : [initialization] SSD Auto Sorter initialization Skip.
+[2015/12/02 09:10:27.754]  : Level 2 Mode (Machine Teaching Mode)
+[2015/12/02 09:58:08.967]  : Door_1_Open_Close_Error_PS3701

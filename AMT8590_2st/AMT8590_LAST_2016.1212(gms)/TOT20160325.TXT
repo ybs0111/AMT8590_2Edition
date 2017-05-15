@@ -1,0 +1,54 @@
+[2016/03/25 11:39:23.224]  : Client_[01] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:23.228]  : Client_[02] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:23.240]  : Client_[05] Connect Fail.. IP = 127.0.0.1 , Port = 10056
+[2016/03/25 11:39:23.244]  : Client_[06] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:23.249]  : Client_[07] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:23.254]  : Client_[08] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:23.258]  : Client_[09] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:23.388]  : [OnMain_Motor_Setting]
+[2016/03/25 11:39:23.389]  : Door_1_Open_Close_Error_PS3701
+[2016/03/25 11:39:23.575]  : Listening. Server [00]..
+[2016/03/25 11:39:23.576]  : Listening. Server [02]..
+[2016/03/25 11:39:23.577]  : Listening. Server [03]..
+[2016/03/25 11:39:23.578]  : Listening. Server [04]..
+[2016/03/25 11:39:23.579]  : Listening. Server [05]..
+[2016/03/25 11:39:23.579]  : Listening. Server [06]..
+[2016/03/25 11:39:23.580]  : Listening. Server [07]..
+[2016/03/25 11:39:23.580]  : Listening. Server [07]..
+[2016/03/25 11:39:23.581]  : Listening. Server [08]..
+[2016/03/25 11:39:23.582]  : Listening. Server [09]..
+[2016/03/25 11:39:24.543]  : Client_[06] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9100^XZ
+[2016/03/25 11:39:24.544]  : Client_[07] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9101^XZ
+[2016/03/25 11:39:24.545]  : Client_[08] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9102^XZ
+[2016/03/25 11:39:24.545]  : Client_[09] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9103^XZ
+[2016/03/25 11:39:24.556]  : [PRINT_Answer] ^XA^SXK,D,Y,Y,192.168.1.16,9103^XZ
+[2016/03/25 11:39:26.553]  : [initialization] SSD Auto Sorter initialization Skip.
+[2016/03/25 11:39:35.747]  : Client_[01] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:35.751]  : Client_[02] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:35.762]  : Client_[05] Connect Fail.. IP = 127.0.0.1 , Port = 10056
+[2016/03/25 11:39:35.766]  : Client_[06] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:35.770]  : Client_[07] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:35.774]  : Client_[08] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:35.778]  : Client_[09] Connect Fail.. IP =  , Port = 0
+[2016/03/25 11:39:35.890]  : [OnMain_Motor_Setting]
+[2016/03/25 11:39:35.891]  : Door_1_Open_Close_Error_PS3701
+[2016/03/25 11:39:36.024]  : Listening. Server [00]..
+[2016/03/25 11:39:36.025]  : Listening. Server [02]..
+[2016/03/25 11:39:36.025]  : Listening. Server [03]..
+[2016/03/25 11:39:36.026]  : Listening. Server [04]..
+[2016/03/25 11:39:36.027]  : Listening. Server [05]..
+[2016/03/25 11:39:36.028]  : Listening. Server [06]..
+[2016/03/25 11:39:36.029]  : Listening. Server [07]..
+[2016/03/25 11:39:36.030]  : Listening. Server [07]..
+[2016/03/25 11:39:36.030]  : Listening. Server [08]..
+[2016/03/25 11:39:36.031]  : Listening. Server [09]..
+[2016/03/25 11:39:37.614]  : Client_[06] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9100^XZ
+[2016/03/25 11:39:37.615]  : Client_[07] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9101^XZ
+[2016/03/25 11:39:37.615]  : Client_[08] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9102^XZ
+[2016/03/25 11:39:37.616]  : Client_[09] Not ConnectData Send - ^XA^SXK,D,Y,Y,192.168.1.16,9103^XZ
+[2016/03/25 11:39:37.626]  : [PRINT_Answer] ^XA^SXK,D,Y,Y,192.168.1.16,9103^XZ
+[2016/03/25 11:39:39.768]  : [initialization] SSD Auto Sorter initialization Skip.
+[2016/03/25 11:39:51.526]  : Level 2 Mode (Machine Teaching Mode)
+[2016/03/25 11:40:03.503]  : [Exit OK]
+[2016/03/25 11:40:05.453]  : [TowerLamp] EQUIP NO was changed by AMT
+[2016/03/25 11:40:05.454]  : [TowerLamp] EQUIP ID was changed by AMT

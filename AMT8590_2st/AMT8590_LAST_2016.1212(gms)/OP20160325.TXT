@@ -1,0 +1,2 @@
+[2016/03/25 11:40:05.452]  : [TowerLamp] EQUIP NO was changed by AMT
+[2016/03/25 11:40:05.454]  : [TowerLamp] EQUIP ID was changed by AMT

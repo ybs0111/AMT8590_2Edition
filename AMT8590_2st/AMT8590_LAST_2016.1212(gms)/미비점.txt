@@ -1,0 +1,99 @@
+1. 유통라벨 
+
+ 1) 라벨 발행 후 Feeder Up시 라벨이 프린터기에 붙어서 알람 발생
+   ->  "Distribution_Label_Printer1_Plate_Vacuum_On_Check_Error"
+   ->  "Distribution_Label_Printer2_Plate_Vacuum_On_Check_Error"
+
+ 2) Feeder에서 라벨 안착 후 비전 검사 전 비전 위치로 먼저 이동하게 시퀀스 변경
+
+ 3) 라벨 발행 에러 시 재 발행 동작 되는지 확인
+   - 메뉴얼 화면에서 발행하는 동작 하지 않도록
+
+ 4) 초기화 완료 후 스메마 통신 클리어 작업
+   - top transfer 신호 계속 켜져 있음
+
+ 5) 초기화 시 용량라벨 자동으로 버리게 수정
+              유통라벨
+
+ 6) 바코드 서버에 접속하는 시점 변경
+   - 서버 접속은 런 중에만 받고 봉함기 Out에서 자재코드 받아서 유통라벨 출력
+
+ 7) [103] [700200] ["Barcode1_time_out_from_server]
+    [103] [700210] ["Barcode2_time_out_from_server] 다발
+
+ 8) wait time 적용되는지 확인
+
+
+2. 8580
+ 1) new lot in 
+
+
+3. 8580F
+   1) 8580S에서 네트워크 통신 진행 시 스테커 강제 설정 못하도록 -> 8580F 
+   2) TK_CODE 체크하여 알람 발생 유무 체크
+
+
+
+1.SECS & GEM 체크.
+2.LOG -> 이경숙책임, FTP로 전송 2가지.
+3.Afetr Density Label Init->6ea Label communicate, 6ea throw out.
+4.Vestek network comm-> LOT_ID, PART_ID 추가작업 -> OK
+5.UPH LOG file.
+
+  T_BOX_TRANSFER_Y,T_BOX_TRANSFER_Z rbt 동작 문제.
+7.시간당 UPH display 단, 30초 이상 된 자재는 skip.
+  tact time은 처음 9개는 그냥 디스플레이 10개 누적해서 display. -> OK
+  최대 시간 30초 이전까지만 시간 조절 가능하게(ADMIN)
+
+8.Out Conveyor Inline -> error로 배출, Unload로 배출 -> OK
+9.부자재교체 시 개수를 리셋해준다 -> HOW...(바코드, 라벨 교체시)->GUI 추가
+
+11.Label,BCR1,BCR2,TOP,UNLOAD 비젼 경과 저장 할 수 있게 st_handler에 추가
+12.network wait time (sec)->msec  OK
+
+6.8580S에서 라스트 모듈 받으면 로봇은 그냥 스킵 동작.
+10.8580S alarm체크
+
+13. 초기화
+   8580s btm 초기화시에 통신 추가 stop
+   8580s top 초기하시에 버퍼 유무 감지 후 동작 
+
+   1) 8580<->8590 관련
+      8590->8580
+      top:초기화시에 8580 top에 시그널은 보낸다 
+      만일, 통신이 끝났으면 oot buffer 시퀀스를 1000으로 보내고 smema를 reset한다.
+      btm:8580이 8590안에 들어와서 idbuff를 집고 있으면 풀고 smema 초기화하고 신호를 주면
+          8590은 초기화를 한다.
+
+      8580->8590
+      top:만일 8590이 안에 들어왔으면 smema 초기화 후에 뒤로 빼고 신호를 준다.
+          신호를 수신후 초기화 진행
+      btm:만일 8590 안에서 집고 있으면, 빼고 8590에 신호를 주고 초기화한다, 
+   2) 8570<->8580 관련
+      8570->8580
+      top:초기화시에 8580 top에 시그널은 보낸다 
+      만일, 통신이 끝났으면 in buffer 시퀀스를 리셋하고 smema를 reset한다.
+      btm: 8580이 8570안에 들어가 idbuff를 집고 있으면 풀고 smema 초기화하고 신호를 주면
+           8570도 smema 시퀀스 초기화를 한다.
+      8580->8570
+      top:만일 8580이 안에 들어갔으면 8570안에 놓고 나오고 아니면 들고 smema 초기화 후에 뒤로 빼고 신호를 준다.
+          신호를 수신후 초기화 진행
+      btm:만일 8590 안에서 집고 있으면, 빼고 8590에 신호를 주고 초기화한다, 
+
+14. AMT8580F lotend
+   ?? 개수 체크 다시 할것
+
+15. Unload Robot LOTID를 넣어 전랏인지 후랏인지 알아야 LOT END를 할 수 있다.
+
+16. Rear, Front key display
+17. Reject convey 동작 에러 체크
+
+18. XCLOSE 동작?
+19. 동작중 피더 스킵 방법
+20. 바코드 위치체크
+21. 용량 total=4
+	 1=120GB
+	 2=250GB
+	 3=500GB
+	 4=1TB
+22. st_handler.mn_Lotcnt. position??
